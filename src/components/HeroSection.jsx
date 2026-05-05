@@ -14,13 +14,13 @@ export default function HeroSection({ onOpenApplication, heroImg, mapImg }) {
       <img
         src={mapImg}
         alt="Карта маршрута"
-        className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-lighten"
-      />
+        className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-lighten" />
+      
       <img
         src={heroImg}
         alt="Строительная площадка"
-        className="absolute inset-0 w-full h-full object-cover opacity-20"
-      />
+        className="absolute inset-0 w-full h-full object-cover opacity-20" />
+      
       <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/40 to-primary" />
 
       {/* Animated route line */}
@@ -40,8 +40,8 @@ export default function HeroSection({ onOpenApplication, heroImg, mapImg }) {
             strokeWidth="2"
             fill="none"
             strokeDasharray="8 6"
-            className="animate-pulse"
-          />
+            className="animate-pulse" />
+          
           <circle cx="1200" cy="350" r="6" fill="hsl(18, 100%, 54%)" className="animate-pulse" />
           <circle cx="200" cy="420" r="6" fill="hsl(18, 100%, 54%)" className="animate-pulse" />
         </svg>
@@ -68,16 +68,16 @@ export default function HeroSection({ onOpenApplication, heroImg, mapImg }) {
           <Button
             onClick={onOpenApplication}
             size="lg"
-            className="bg-accent hover:bg-accent/90 text-accent-foreground font-inter font-bold text-base px-8 py-6 rounded-lg shadow-lg shadow-accent/25 transition-all hover:shadow-xl hover:shadow-accent/30 hover:scale-105"
-          >
+            className="bg-accent hover:bg-accent/90 text-accent-foreground font-inter font-bold text-base px-8 py-6 rounded-lg shadow-lg shadow-accent/25 transition-all hover:shadow-xl hover:shadow-accent/30 hover:scale-105">
+            
             Оставить заявку
           </Button>
           <Button
             onClick={scrollToVacancies}
             variant="outline"
             size="lg"
-            className="border-white/20 text-white hover:bg-white/10 font-inter font-medium text-base px-8 py-6 rounded-lg"
-          >
+            className="border-white/20 text-white hover:bg-white/10 font-inter font-medium text-base px-8 py-6 rounded-lg">
+            
             Узнать подробности
           </Button>
         </div>
@@ -103,6 +103,6 @@ export default function HeroSection({ onOpenApplication, heroImg, mapImg }) {
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <ChevronDown className="h-6 w-6 text-white/40" />
       </div>
-    </section>
-  );
+    </section>);
+
 }
