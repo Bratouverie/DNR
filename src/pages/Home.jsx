@@ -11,6 +11,7 @@ import Footer from "../components/Footer";
 import ApplicationModal from "../components/ApplicationModal";
 import CallbackModal from "../components/CallbackModal";
 import StickyCommandBar from "../components/StickyCommandBar";
+import ProjectInfoSection from "../components/ProjectInfoSection";
 
 const IMAGES = {
   hero: "https://media.base44.com/images/public/69f4a665db2c72a42818d397/4feb0c682_generated_15775d57.png",
@@ -40,6 +41,7 @@ export default function Home() {
         mapImg={IMAGES.map}
       />
       <AboutSection teamImg={IMAGES.team} />
+      <ProjectInfoSection />
       <VacanciesSection onApply={openApplication} />
       <ConditionsSection
         images={{
