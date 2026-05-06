@@ -54,19 +54,12 @@ export default function Home() {
       />
       <AboutSection teamImg={IMAGES.team} />
       <ProjectInfoSection />
+      <ProjectStatusSection />
       <GeographySection />
       <TimelineSection />
-      <ProjectStatusSection />
       <MechanismSection />
-      <DocumentsSection />
-      <SafetySection />
-      <SocialSection />
-      <PhotoGallerySection />
-      <TestimonialsSection />
-      <BenefitsSection />
-      <FaqSection />
-      <LegalSection />
       <VacanciesSection onApply={openApplication} />
+      <PaymentSection />
       <ConditionsSection
         images={{
           security: IMAGES.security,
@@ -75,8 +68,15 @@ export default function Home() {
           team: IMAGES.team,
         }}
       />
-      <PaymentSection />
+      <BenefitsSection />
+      <SafetySection />
+      <SocialSection />
+      <DocumentsSection />
       <HowToJoinSection />
+      <PhotoGallerySection />
+      <TestimonialsSection />
+      <FaqSection />
+      <LegalSection />
       <ContactsSection onCallback={() => setCallbackOpen(true)} />
       <Footer />
       <StickyCommandBar onOpenApplication={() => openApplication("")} />
