@@ -54,7 +54,7 @@ export default function PaymentSection() {
           <div className="bg-white/5 border border-white/10 rounded-2xl p-8 sm:p-12 flex flex-col items-center justify-center text-center">
             <div className="text-sm text-white/50 font-inter mb-2">Единовременная выплата</div>
             <div className="text-5xl sm:text-6xl lg:text-7xl text-accent">
-              <AnimatedCounter target={2500000} prefix="" suffix=" ₽" />
+              <AnimatedCounter target={500000} prefix="" suffix=" ₽" />
             </div>
             <div className="text-white/50 font-inter text-sm mt-3">
               при подписании контракта
@@ -76,9 +76,9 @@ export default function PaymentSection() {
             <div className="bg-accent/10 border border-accent/20 rounded-2xl p-6 sm:p-8">
               <div className="text-sm text-accent font-inter font-semibold mb-2">Итого за год вахты</div>
               <div className="text-3xl sm:text-4xl text-accent">
-                <AnimatedCounter target={5020000} suffix="" prefix="" />
+                <AnimatedCounter target={3020000} suffix="" prefix="" />
                 <span className="text-2xl sm:text-3xl"> – </span>
-                <AnimatedCounter target={5620000} suffix=" ₽" prefix="" />
+                <AnimatedCounter target={3620000} suffix=" ₽" prefix="" />
               </div>
               <div className="text-white/40 font-inter text-sm mt-2">
                 включая единовременную выплату + 12 ежемесячных
@@ -93,8 +93,8 @@ export default function PaymentSection() {
           <div className="grid sm:grid-cols-3 gap-4">
             <div className="bg-white/5 rounded-xl p-4 text-center">
               <div className="text-xs text-white/40 font-inter mb-1">1-й месяц</div>
-              <div className="font-mono font-bold text-xl text-white">2 735 000 ₽</div>
-              <div className="text-xs text-white/40 font-inter mt-1">2.5М + 235К зарплата</div>
+              <div className="font-mono font-bold text-xl text-white">735 000 ₽</div>
+              <div className="text-xs text-white/40 font-inter mt-1">500К + 235К зарплата</div>
             </div>
             <div className="bg-white/5 rounded-xl p-4 text-center">
               <div className="text-xs text-white/40 font-inter mb-1">2–12 месяцы</div>
@@ -103,7 +103,7 @@ export default function PaymentSection() {
             </div>
             <div className="bg-accent/20 rounded-xl p-4 text-center border border-accent/30">
               <div className="text-xs text-accent font-inter font-semibold mb-1">Итого за год</div>
-              <div className="font-mono font-bold text-xl text-accent">5 320 000 ₽</div>
+              <div className="font-mono font-bold text-xl text-accent">3 320 000 ₽</div>
               <div className="text-xs text-white/40 font-inter mt-1">при средних показателях</div>
             </div>
           </div>
