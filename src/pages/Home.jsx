@@ -21,6 +21,8 @@ import SafetySection from "../components/SafetySection";
 import SocialSection from "../components/SocialSection";
 import LegalSection from "../components/LegalSection";
 import BenefitsSection from "../components/BenefitsSection";
+import PhotoGallerySection from "../components/PhotoGallerySection";
+import TestimonialsSection from "../components/TestimonialsSection";
 
 const IMAGES = {
   hero: "https://media.base44.com/images/public/69f4a665db2c72a42818d397/4feb0c682_generated_15775d57.png",
@@ -58,6 +60,8 @@ export default function Home() {
       <DocumentsSection />
       <SafetySection />
       <SocialSection />
+      <PhotoGallerySection />
+      <TestimonialsSection />
       <BenefitsSection />
       <LegalSection />
       <VacanciesSection onApply={openApplication} />
