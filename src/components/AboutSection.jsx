@@ -52,7 +52,7 @@ export default function AboutSection({ teamImg }) {
               className="relative rounded-2xl w-full object-cover shadow-2xl" />
             
             <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground rounded-xl p-4 shadow-xl">
-              <div className="font-mono font-bold text-2xl text-accent">500+</div>
+              <div className="font-mono font-bold text-2xl text-accent">700+</div>
               <div className="font-inter text-xs text-primary-foreground/70">специалистов<br />уже в программе</div>
             </div>
           </div>
