@@ -54,7 +54,7 @@ export const VACANCIES_DATA = [
   {
     id: "stroitel",
     title: "Строитель",
-    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/4b9324145_Stroitel.pdf",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/cfd2d1f9b_Stroitel.pdf",
     category: "Строительство",
     salaryMin: 210000,
     salaryMax: 250000,
