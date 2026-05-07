@@ -157,6 +157,7 @@ export const VACANCIES_DATA = [
   {
     id: "voditel",
     title: "Водитель",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/85fb1990d_Voditel.pdf",
     category: "Транспорт",
     salaryMin: 155000,
     salaryMax: 210000,
