@@ -2,7 +2,7 @@ export const VACANCIES_DATA = [
   {
     id: "raznorabochiy",
     title: "Разнорабочий",
-    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/44150b402_Raznorabochiy.pdf",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/615a3cbcf_Raznorabochiy.pdf",
     category: "Строительство",
     salaryMin: 185000,
     salaryMax: 215000,
