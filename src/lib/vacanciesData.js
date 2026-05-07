@@ -205,7 +205,7 @@ export const VACANCIES_DATA = [
   {
     id: "inzhener-svyazist",
     title: "Инженер-связист",
-    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/d08c73c68_Sviazist.pdf",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/6b2e2bc20_Sviazist.pdf",
     category: "Связь",
     salaryMin: 215000,
     salaryMax: 255000,
