@@ -104,6 +104,7 @@ export const VACANCIES_DATA = [
   {
     id: "avtoslesarj",
     title: "Автослесарь",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/6e072eb7b_Avtoslesar.pdf",
     category: "Транспорт",
     salaryMin: 200000,
     salaryMax: 235000,
@@ -252,6 +253,7 @@ export const VACANCIES_DATA = [
   {
     id: "operator-bpla",
     title: "Оператор БПЛА",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/4334ae380_Operator-BPLA.pdf",
     category: "Технологии",
     salaryMin: 220000,
     salaryMax: 260000,
@@ -354,6 +356,7 @@ export const VACANCIES_DATA = [
   {
     id: "medik",
     title: "Медицинский работник",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/53474168b_Med-rabotnik.pdf",
     category: "Медицина",
     salaryMin: 205000,
     salaryMax: 240000,
@@ -405,6 +408,7 @@ export const VACANCIES_DATA = [
   {
     id: "okhrannik",
     title: "Охранник",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/cb3f1e47d_Ohranik.pdf",
     category: "Безопасность",
     salaryMin: 175000,
     salaryMax: 210000,

@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
-import { ArrowLeft, Banknote, Calendar, MapPin, Users, Shield, GraduationCap, TrendingUp, CheckCircle, Clock, AlertTriangle } from "lucide-react";
+import { ArrowLeft, Banknote, Calendar, MapPin, Users, Shield, GraduationCap, TrendingUp, CheckCircle, Clock, AlertTriangle, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { VACANCIES_DATA } from "@/lib/vacanciesData";
 import ApplicationModal from "../components/ApplicationModal";
@@ -229,6 +229,28 @@ export default function VacancyDetail() {
                 ))}
               </ul>
             </div>
+
+            {/* Contract */}
+            {vacancy.contractUrl && (
+              <div className="bg-card border border-border rounded-2xl p-5">
+                <h3 className="font-inter font-bold text-foreground mb-3 flex items-center gap-2">
+                  <Download className="h-4 w-4 text-accent" />
+                  Ознакомительный договор
+                </h3>
+                <p className="font-inter text-xs text-muted-foreground mb-3 leading-relaxed">
+                  Ознакомительная версия трудового договора. Официальная версия подписывается на месте несения вахты.
+                </p>
+                <a
+                  href={vacancy.contractUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-primary text-primary-foreground font-inter font-semibold text-sm hover:bg-primary/90 transition-colors"
+                >
+                  <Download className="h-4 w-4" />
+                  Скачать договор (PDF)
+                </a>
+              </div>
+            )}
 
             {/* Prospects */}
             <div className="bg-accent/5 border border-accent/20 rounded-2xl p-5">
