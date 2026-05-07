@@ -2,6 +2,7 @@ export const VACANCIES_DATA = [
   {
     id: "raznorabochiy",
     title: "Разнорабочий",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/44150b402_Raznorabochiy.pdf",
     category: "Строительство",
     salaryMin: 185000,
     salaryMax: 215000,
@@ -53,6 +54,7 @@ export const VACANCIES_DATA = [
   {
     id: "stroitel",
     title: "Строитель",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/4b9324145_Stroitel.pdf",
     category: "Строительство",
     salaryMin: 210000,
     salaryMax: 250000,
@@ -202,6 +204,7 @@ export const VACANCIES_DATA = [
   {
     id: "inzhener-svyazist",
     title: "Инженер-связист",
+    contractUrl: "https://media.base44.com/files/public/69f4a665db2c72a42818d397/d08c73c68_Sviazist.pdf",
     category: "Связь",
     salaryMin: 215000,
     salaryMax: 255000,
