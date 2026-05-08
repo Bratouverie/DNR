@@ -1,4 +1,4 @@
-import { FileText, Mail, Phone, MapPin, CheckCircle, AlertCircle } from "lucide-react";
+import { FileText, Mail, Phone, MapPin, CheckCircle, AlertCircle, Download } from "lucide-react";
 import { useState } from "react";
 
 const BASE_DOCS = [
@@ -75,6 +75,28 @@ export default function DocumentsSection() {
           <p className="text-muted-foreground font-inter mt-4 max-w-xl mx-auto">
             Полный пакет документов ускоряет рассмотрение заявки. Ниже — список обязательных и дополнительных документов.
           </p>
+        </div>
+
+        {/* Main Contract Download */}
+        <div className="bg-primary text-primary-foreground rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-4">
+            <div className="w-14 h-14 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
+              <FileText className="h-7 w-7 text-accent" />
+            </div>
+            <div>
+              <div className="font-inter font-bold text-lg text-white">Контракт о выполнении работ по восстановлению городов ДНР и ЛНР</div>
+              <div className="text-white/60 font-inter text-sm mt-1">Ознакомительная версия · Срок 1 год · Министерство Обороны РФ</div>
+            </div>
+          </div>
+          <a
+            href="https://media.base44.com/files/public/69f4a665db2c72a42818d397/1112633f7_Kontract-DNR-LNR.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 flex items-center gap-2 bg-accent hover:bg-accent/90 text-white font-inter font-semibold px-6 py-3 rounded-xl transition-colors"
+          >
+            <Download className="h-5 w-5" />
+            Скачать контракт
+          </a>
         </div>
 
         {/* Tabs */}
