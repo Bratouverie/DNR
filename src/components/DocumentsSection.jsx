@@ -99,6 +99,28 @@ export default function DocumentsSection() {
           </a>
         </div>
 
+        {/* Legal Basis Download */}
+        <div className="bg-secondary/60 border border-border rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-4">
+            <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center shrink-0">
+              <FileText className="h-7 w-7 text-accent" />
+            </div>
+            <div>
+              <div className="font-inter font-bold text-lg text-foreground">Юридическое основание проекта</div>
+              <div className="text-muted-foreground font-inter text-sm mt-1">Постановление Правительства РФ от 22 декабря 2023 г. № 2255 · Государственная программа восстановления ДНР и ЛНР</div>
+            </div>
+          </div>
+          <a
+            href="https://media.base44.com/files/public/69f4a665db2c72a42818d397/a60e58511_Postanovlenie_11zon.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-inter font-semibold px-6 py-3 rounded-xl transition-colors"
+          >
+            <Download className="h-5 w-5" />
+            Скачать постановление
+          </a>
+        </div>
+
         {/* Tabs */}
         <div className="flex flex-wrap justify-center gap-2">
           {[
