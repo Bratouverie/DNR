@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/DNR/',
+  base: '/',
   logLevel: 'error',
   plugins: [
     base44({
@@ -14,5 +14,9 @@ export default defineConfig({
       visualEditAgent: true
     }),
     react(),
-  ]
+  ],
+  define: {
+    'import.meta.env.VITE_BASE44_APP_ID': JSON.stringify('69f4a665db2c72a42818d397'),
+    'import.meta.env.VITE_BASE44_APP_BASE_URL': JSON.stringify('https://my-to-do-list-81bfaad7.base44.app'),
+  }
 });
