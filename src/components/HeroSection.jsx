@@ -60,9 +60,17 @@ export default function HeroSection({ onOpenApplication, heroImg, mapImg }) {
           <br />ЛНР и ДНР
         </h1>
 
-        <p className="text-lg sm:text-xl text-white/70 font-inter font-light max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg sm:text-xl text-white/70 font-inter font-light max-w-2xl mx-auto mb-4 leading-relaxed">
           Работа с достойной оплатой, в безопасных условиях и с полной социальной поддержкой
         </p>
+        <div className="inline-flex flex-wrap items-center justify-center gap-2 mb-10">
+          {["Мариуполь", "Макеевка", "Луганск", "Алчевск"].map((city) => (
+            <span key={city} className="flex items-center gap-1.5 bg-white/10 border border-white/20 rounded-full px-3 py-1 text-white/80 text-sm font-inter">
+              <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
+              {city}
+            </span>
+          ))}
+        </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
           <Button

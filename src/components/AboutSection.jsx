@@ -22,11 +22,19 @@ export default function AboutSection({ teamImg }) {
               специалистов со всей России. Каждый участник вносит вклад в возвращение мирной жизни
               и комфорта жителям регионов.
             </p>
-            <p className="text-muted-foreground font-inter leading-relaxed mb-8">
+            <p className="text-muted-foreground font-inter leading-relaxed mb-4">
               Вы не просто выполняете работу — вы помогаете вернуть мирную жизнь тысячам людей.
               Государство и администрация республик обеспечивают всем необходимым для комфортной
               и безопасной работы.
             </p>
+            <div className="flex flex-wrap gap-2 mb-8">
+              <span className="text-sm font-inter font-semibold text-foreground">Города работы:</span>
+              {["Мариуполь", "Макеевка", "Луганск", "Алчевск"].map((city) => (
+                <span key={city} className="flex items-center gap-1.5 bg-accent/10 border border-accent/20 rounded-full px-3 py-0.5 text-accent text-sm font-inter font-medium">
+                  {city}
+                </span>
+              ))}
+            </div>
 
             <div className="grid grid-cols-2 gap-4">
               {FEATURES.map((f) =>
